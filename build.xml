@@ -2,10 +2,11 @@
 <project name="JenkinsProjectTest" default="build">
   <target name="build" depends="lint"/>
   <target name="lint" description="Run PHP lint...">
-   <apply executable="php" failonerror="true">
+   <apply executable="php" failonerror="true" taskname="lint">
     <arg value="-l" />
     <fieldset dir="${basedir}/src">
      <include name="**/*.php" />
+     <modified /> 
     </fieldset>
    </apply>
   </target>

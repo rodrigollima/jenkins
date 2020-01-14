@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project name="JenkinsProjectTest" default="build">
   <target name="build" depends="lint"/>
-  <target name="lint" description="Run PHP lint...">
+  <target name="lint" unless="lint.done" description="Run PHP lint...">
    <apply executable="php" failonerror="true" taskname="lint">
     <arg value="-l" />
     <fieldset dir="${basedir}/src">
@@ -9,5 +9,6 @@
      <modified /> 
     </fieldset>
    </apply>
+   <property name="lint.done" value="true"/>
   </target>
 </project>   

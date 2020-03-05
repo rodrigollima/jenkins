@@ -21,17 +21,3 @@ jobs:
     steps:
     # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
     - uses: brpaz/action-semantic-release@v1
-      with:
-        dry_run: "false"
-        install_plugins: "semantic-release-docker semantic-release-gcr"
-        branch: master
-
-    # Runs a single command using the runners shell
-    - name: Run a one-line script
-      run: echo Hello, world!
-
-    # Runs a set of commands using the runners shell
-    - name: Run a multi-line script
-      run: |
-        echo Add other actions to build,
-        echo test, and deploy your project.

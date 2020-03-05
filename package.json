@@ -1,9 +1,7 @@
 {
-  "scripts": {
-    "bump": "standard-version"
-  },
+  "name": "my-awesome-package",
+  "version": "1.0.0",
   "devDependencies": {
     "standard-version": "^7.1.0"
-  },
-  "version": null
+  }
 }

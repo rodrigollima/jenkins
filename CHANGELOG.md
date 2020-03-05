@@ -2,4 +2,18 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.0.1](https://github.com/rodrigollima/jenkins/compare/v1.1.0...v1.0.1) (2020-03-05)
+
+
+### Bug Fixes
+
+* **ui:** add node package ([6bde793](https://github.com/rodrigollima/jenkins/commit/6bde793fc5b506a4fd1eaec1e9af1b8a294986bd))
+* broken file ([3479a78](https://github.com/rodrigollima/jenkins/commit/3479a78c5d1f19f0a39a272abeb7707f0053df4f))
+* fix changelog ([a680fec](https://github.com/rodrigollima/jenkins/commit/a680fec1e712fb6f9b18730a0013346bd79d0c2b))
+* new fix ([0132640](https://github.com/rodrigollima/jenkins/commit/0132640ab59d37386eef8d89c23aec612db1815a))
+
+# Changelog
+
+All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
+
 ## [](https://github.com/rodrigollima/jenkins/compare/v1.1.0...v) (2020-03-05)

@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.2.0](https://github.com/rodrigollima/jenkins/compare/v1.0.3...v1.2.0) (2020-03-05)
+
+
+### Features
+
+* remove files ([4d9dfb0](https://github.com/rodrigollima/jenkins/commit/4d9dfb0b5380e6bf7e663146baad96cdf004381a))
+* remove files ([f03d491](https://github.com/rodrigollima/jenkins/commit/f03d4915c358eecc18f0b429d199a3328ccd2a3a))
+
 ## [1.1.0](https://github.com/rodrigollima/jenkins/compare/v1.0.3...v1.1.0) (2020-03-05)
 
 

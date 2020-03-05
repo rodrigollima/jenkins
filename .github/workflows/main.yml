@@ -32,5 +32,6 @@ jobs:
           files: |
             Release.txt
             LICENSE
+            CHANGELOG.md
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

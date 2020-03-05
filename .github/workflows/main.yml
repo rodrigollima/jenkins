@@ -19,17 +19,13 @@ jobs:
 
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
-      - name: Release
-        uses: docker://antonyurchenko/git-release:latest
+      - uses: release-drafter/release-drafter@v5
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          DRAFT_RELEASE: "false"
-          PRE_RELEASE: "false"
-          CHANGELOG_FILE: "CHANGELOG.md"
-          ALLOW_EMPTY_CHANGELOG: "false"
-          ALLOW_TAG_PREFIX: "true"
-        with:
-          args: |
-              build/darwin-amd64.zip
-              build/linux-amd64.zip
-              build/windows-amd64.zip
+      - name: 'Set draft version number'
+        uses: pinio/draft-semver@v1
+        id: semver
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Print the next version
+        run: echo "Next version - ${{ steps.semver.outputs.version-identifier }}"

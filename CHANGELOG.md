@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.6](https://github.com/rodrigollima/jenkins/compare/v0.0.5...v0.0.6) (2020-03-23)
+
+
+### Bug Fixes
+
+* fdafdsfds ([b15854f](https://github.com/rodrigollima/jenkins/commit/b15854fe361eba78250420719ff181864c7ae013))
+
 ### [0.0.5](https://github.com/rodrigollima/jenkins/compare/v0.0.4...v0.0.5) (2020-03-23)
 
 ### [0.0.4](https://github.com/rodrigollima/jenkins/compare/v0.0.3...v0.0.4) (2020-03-23)

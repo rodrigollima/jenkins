@@ -3,7 +3,7 @@
   "version": "0.0.11",
   "devDependencies": {
     "standard-version": "^7.1.0",
-    "semantic-release": "^17.0.4",
+    "semantic-release": "^17.0.4"
   },
   "scripts": {
     "semantic-release": "semantic-release",

@@ -4,10 +4,10 @@
   "devDependencies": {
     "standard-version": "^7.1.0",
     "semantic-release": "^17.0.4",
-    "release": "standard-version"
   },
   "scripts": {
-    "semantic-release": "semantic-release"
+    "semantic-release": "semantic-release",
+    "release": "standard-version"
   },
   "repository": {
     "type": "git",

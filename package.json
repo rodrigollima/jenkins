@@ -1,7 +1,15 @@
 {
   "name": "my-awesome-package",
-  "version": "1.2.0",
+  "version": "0.0.0",
   "devDependencies": {
-    "standard-version": "^7.1.0"
+    "standard-version": "^7.1.0",
+    "semantic-release": "^17.0.4"
+  },
+  "scripts": {
+    "semantic-release": "semantic-release"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rodrigollima/jenkins.git"
   }
 }

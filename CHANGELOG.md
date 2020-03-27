@@ -2,6 +2,29 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## 0.0.0 (2020-03-27)
+
+
+### Features
+
+* install release software ([49af129](https://github.com/rodrigollima/jenkins/commit/49af12975a82f372175603893e8616a1d5289806))
+* **lang:** new lang ([d73bb2d](https://github.com/rodrigollima/jenkins/commit/d73bb2d16d554390368679f2f5cd5f495ff4ffdf))
+* remove files ([4d9dfb0](https://github.com/rodrigollima/jenkins/commit/4d9dfb0b5380e6bf7e663146baad96cdf004381a))
+* remove files ([f03d491](https://github.com/rodrigollima/jenkins/commit/f03d4915c358eecc18f0b429d199a3328ccd2a3a))
+
+
+### Bug Fixes
+
+* broken file ([3479a78](https://github.com/rodrigollima/jenkins/commit/3479a78c5d1f19f0a39a272abeb7707f0053df4f))
+* documentation ([a74aaad](https://github.com/rodrigollima/jenkins/commit/a74aaadbfa3b0bc7a2648335f0b9d49ee1f19465))
+* erro virgula ([906c5d1](https://github.com/rodrigollima/jenkins/commit/906c5d17f178c05e96f54fb0d701de6acfbb0ca3))
+* fdafdsfds ([b15854f](https://github.com/rodrigollima/jenkins/commit/b15854fe361eba78250420719ff181864c7ae013))
+* fix changelog ([a680fec](https://github.com/rodrigollima/jenkins/commit/a680fec1e712fb6f9b18730a0013346bd79d0c2b))
+* new fix ([0132640](https://github.com/rodrigollima/jenkins/commit/0132640ab59d37386eef8d89c23aec612db1815a))
+* teste ([1acf707](https://github.com/rodrigollima/jenkins/commit/1acf707bdc7d1c83a4823247ebee0b29b7fddd36))
+* versioning ([0d73925](https://github.com/rodrigollima/jenkins/commit/0d73925f67c717ed1de2f5065265ee102a8c1f79))
+* **ui:** add node package ([6bde793](https://github.com/rodrigollima/jenkins/commit/6bde793fc5b506a4fd1eaec1e9af1b8a294986bd))
+
 ### [0.0.11](https://github.com/rodrigollima/jenkins/compare/v0.0.10...v0.0.11) (2020-03-23)
 
 

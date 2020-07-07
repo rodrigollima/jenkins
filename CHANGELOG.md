@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.164](https://github.com/rodrigollima/jenkins/compare/v0.0.163...v0.0.164) (2020-07-07)
+
+
+### Features
+
+* new feature 2 ([4b6c4e7](https://github.com/rodrigollima/jenkins/commit/4b6c4e7bd46cb6f92b6e5a977716d92b4e6ab579))
+
 ### [0.0.163](https://github.com/rodrigollima/jenkins/compare/v0.0.162...v0.0.163) (2020-07-07)
 
 ### [0.0.162](https://github.com/rodrigollima/jenkins/compare/v0.0.161...v0.0.162) (2020-07-07)

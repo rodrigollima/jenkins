@@ -2,6 +2,8 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.96](https://github.com/rodrigollima/jenkins/compare/v0.0.95...v0.0.96) (2020-07-07)
+
 ### [0.0.95](https://github.com/rodrigollima/jenkins/compare/v0.0.94...v0.0.95) (2020-07-07)
 
 ### [0.0.94](https://github.com/rodrigollima/jenkins/compare/v0.0.93...v0.0.94) (2020-07-07)

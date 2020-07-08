@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.199](https://github.com/rodrigollima/jenkins/compare/v0.0.198...v0.0.199) (2020-07-08)
+
+
+### Bug Fixes
+
+* new bugfix ([44ca56a](https://github.com/rodrigollima/jenkins/commit/44ca56a468b2be3a505e937964384389449bce65))
+
 ### [0.0.198](https://github.com/rodrigollima/jenkins/compare/v0.0.197...v0.0.198) (2020-07-08)
 
 ### [0.0.197](https://github.com/rodrigollima/jenkins/compare/v0.0.196...v0.0.197) (2020-07-08)

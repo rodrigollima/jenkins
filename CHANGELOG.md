@@ -2,6 +2,8 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.212](https://github.com/rodrigollima/jenkins/compare/v0.0.211...v0.0.212) (2021-03-30)
+
 ### [0.0.211](https://github.com/rodrigollima/jenkins/compare/v0.0.210...v0.0.211) (2021-03-30)
 
 ### [0.0.210](https://github.com/rodrigollima/jenkins/compare/v0.0.209...v0.0.210) (2021-03-30)

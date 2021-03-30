@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.210](https://github.com/rodrigollima/jenkins/compare/v0.0.209...v0.0.210) (2021-03-30)
+
+
+### Features
+
+* new customer ([b2dbb82](https://github.com/rodrigollima/jenkins/commit/b2dbb821f608d82b571eaccbb0293a7de9c9de5b))
+
 ### [0.0.209](https://github.com/rodrigollima/jenkins/compare/v0.0.208...v0.0.209) (2021-03-30)
 
 ### [0.0.208](https://github.com/rodrigollima/jenkins/compare/v0.0.207...v0.0.208) (2021-03-30)

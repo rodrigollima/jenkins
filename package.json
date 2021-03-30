@@ -1,6 +1,6 @@
 {
   "name": "my-awesome-package",
-  "version": "0.0.208",
+  "version": "0.0.209",
   "devDependencies": {
     "standard-version": "^7.1.0"
   },

@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.219](https://github.com/rodrigollima/jenkins/compare/v0.0.218...v0.0.219) (2021-10-05)
+
+
+### Bug Fixes
+
+* teste ([77daf0e](https://github.com/rodrigollima/jenkins/commit/77daf0e883ca061dcc1d445289a00af8b2a2d4f5))
+
 ### [0.0.218](https://github.com/rodrigollima/jenkins/compare/v0.0.217...v0.0.218) (2021-10-05)
 
 ### [0.0.217](https://github.com/rodrigollima/jenkins/compare/v0.0.216...v0.0.217) (2021-10-05)

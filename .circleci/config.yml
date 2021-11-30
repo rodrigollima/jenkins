@@ -18,7 +18,8 @@ jobs:
     docker: 
       - image: proxyco/semantic-release@4.0.0
     steps:
-      - semantic-release/release
+      - semantic-release/release:
+        tag_format: "v"
 
 # Invoke jobs via workflows
 # See: https://circleci.com/docs/2.0/configuration-reference/#workflows

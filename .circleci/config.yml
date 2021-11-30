@@ -17,7 +17,7 @@ jobs:
     executor: node/default
     steps:
       - checkout
-      - run: sudo npm install -g npm
+      #- run: sudo npm install -g npm
       - node/install-packages # Install and automatically cache packages
       # Run optional required steps before releasing
       # - run: npm run build-script

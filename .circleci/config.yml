@@ -9,17 +9,18 @@ orbs:
   # Orb commands and jobs help you with common scripting around a language/tool
   # so you dont have to copy and paste it everywhere.
   # See the orb documentation here: https://circleci.com/developer/orbs/orb/circleci/python
-  semantic-release: proxyco/semantic-release@4.0.0
-
+  node: circleci/node@4.5
 # Define a job to be invoked later in a workflow.
 # See: https://circleci.com/docs/2.0/configuration-reference/#jobs
 jobs:
-  doit:
-    docker: 
-      - image: proxyco/semantic-release@4.0.0
+  release:
+    executor: node/default
     steps:
-      - semantic-release/release:
-        tag_format: "v"
+      - checkout
+      - node/install-packages # Install and automatically cache packages
+      # Run optional required steps before releasing
+      # - run: npm run build-script
+      - run: npx semantic-release@v15.13
 
 # Invoke jobs via workflows
 # See: https://circleci.com/docs/2.0/configuration-reference/#workflows
@@ -27,4 +28,4 @@ workflows:
   sample: # This is the name of the workflow, feel free to change it to better match your workflow.
     # Inside the workflow, you define the jobs you want to run.
     jobs:
-      - doit
+      - release

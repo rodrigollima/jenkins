@@ -21,7 +21,7 @@ jobs:
       # Run optional required steps before releasing
       # - run: npm run build-script
       # run: npx semantic-release@v15.13
-      - run: npx semantic-release/git@v15.13 semantic-release/changelog@v15.13
+      - run: npx semantic-release/git semantic-release/changelog
 
 # Invoke jobs via workflows
 # See: https://circleci.com/docs/2.0/configuration-reference/#workflows

@@ -9,20 +9,15 @@ orbs:
   # Orb commands and jobs help you with common scripting around a language/tool
   # so you dont have to copy and paste it everywhere.
   # See the orb documentation here: https://circleci.com/developer/orbs/orb/circleci/python
-  node: circleci/node@4.5
+  node: circleci/node:12
 # Define a job to be invoked later in a workflow.
 # See: https://circleci.com/docs/2.0/configuration-reference/#jobs
 jobs:
   release:
-    executor: node/default
+    docker: 
+      image: circleci/node:12
     steps:
       - run:
-          name: Install node@v8.11.3
-          command: |
-            export NVM_DIR="/opt/circleci/.nvm"
-            [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"
-            nvm install v14.17
-            nvm alias default v14.17
       - checkout
       #- run: sudo npm install -g npm
       - node/install-packages # Install and automatically cache packages

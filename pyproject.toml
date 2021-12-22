@@ -4,6 +4,10 @@ version = "11.2.0"
 description = ""
 authors = ["lqk"]
 
+packages = [
+    { include="pack", from="." },
+]
+
 [tool.semantic_release]
 version_variable = "pyproject.toml:version" # version location
 branch = "main"                             # branch to make releases of

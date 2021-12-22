@@ -1,3 +1,9 @@
+[tool.poetry]
+name = "test1"
+version = "11.1.0"
+description = ""
+authors = ["lqk"]
+
 [tool.semantic_release]
 version_variable = [
     "src/__init__.py:__version__"

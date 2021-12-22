@@ -9,30 +9,30 @@ on:
     branches: [ master ]
 
 jobs:
-  Quality:
+  deploy:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
-    - uses: actions/setup-python@v2
+    - name: Set up Python
+      uses: actions/setup-python@v2
       with:
-        python-version: 3.8
-    - name: Install Python Poetry
-      uses: abatilo/actions-poetry@v2.1.0
-      with:
-        poetry-version: 1.1.2
-    - name: Configure poetry
-      shell: bash
-      run: python -m poetry config virtualenvs.in-project true
-    - name: View poetry version
-      run: poetry --version
-    - name: Install dependencies
+        python-version: '3.8'
+    - name: install dependencies
       run: |
-        python -m poetry install
-    
-  Release:
+        python -m pip install --upgrade pip
+        python -m pip install build --user
+        pip install flake8 black wheel twine setuptools
+        pip install .
+        pip install -r requirements-dev.txt 
+    - name: build a binary wheel & source tarball
+      run: |
+        python -m build --sdist --wheel --outdir dist/ .
+    - name: twine check
+      run: twine check dist/*
+  release:
     runs-on: ubuntu-latest
     concurrency: release
-    needs: Quality
+    needs: deploy
     steps:
     - uses: actions/checkout@v2
       with:

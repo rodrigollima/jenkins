@@ -1,37 +1,23 @@
-# This workflow will install Python dependencies, run tests and lint with a single version of Python
-# For more information see: https://help.github.com/actions/language-and-framework-guides/using-python-with-github-actions
+name: Semantic Release
 
-name: CI
 on:
   push:
-    branches: [ master ]
-  pull_request:
-    branches: [ master ]
+    branches:
+      - master
 
 jobs:
-  deploy:
-    runs-on: ubuntu-latest
-    steps:
-    - uses: actions/checkout@v2
-    - name: Set up Python
-      uses: actions/setup-python@v2
-      with:
-        python-version: '3.8'
-    - name: install dependencies
-      run: |
-        python -m pip install --upgrade pip
-        python -m pip install build --user
-        pip install flake8 black wheel twine setuptools
   release:
     runs-on: ubuntu-latest
     concurrency: release
-    needs: deploy
+
     steps:
     - uses: actions/checkout@v2
       with:
-        ref : 'main'
+        fetch-depth: 0
+
     - name: Python Semantic Release
       uses: relekang/python-semantic-release@master
-      env:
+      with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
-        pypi_token: ${{ secrets.PYPI_PASSWORD }}
+        repository_username: __token__
+        repository_password: ${{ secrets.PYPI_TOKEN }}

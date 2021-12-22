@@ -22,8 +22,6 @@ jobs:
         python -m pip install --upgrade pip
         python -m pip install build --user
         pip install flake8 black wheel twine setuptools
-        pip install .
-        pip install -r requirements-dev.txt 
     - name: build a binary wheel & source tarball
       run: |
         python -m build --sdist --wheel --outdir dist/ .

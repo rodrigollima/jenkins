@@ -2,8 +2,9 @@ name: Semantic Release
 
 on:
   push:
-    branches:
-      - master
+    branches: [ master ]
+  pull_request:
+    branches: [ master ]
 jobs:
   Release:
     # https://github.community/t/how-do-i-specify-job-dependency-running-in-another-workflow/16482

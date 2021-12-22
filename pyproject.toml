@@ -5,18 +5,10 @@ description = ""
 authors = ["lqk"]
 
 [tool.semantic_release]
-version_variable = [
-    "src/__init__.py:__version__"
-]
-version_toml = [
-    "pyproject.toml:tool.poetry.version"
-]
-version_pattern = [
-    "README.md:rev: v{version}",
-    "docs/CONTRIBUTING.md:tryceratops, version {version}"
-]
-major_on_zero = false
-branch = "main"
-upload_to_PyPI = false
-upload_to_release = true
-build_command = "pip install poetry && poetry build"
+version_variable = "pyproject.toml:version" # version location
+branch = "main"                             # branch to make releases of
+changelog_file = "CHANGELOG.md"             # changelog file
+build_command = "pip install poetry && poetry build"  # build dists
+dist_path = "dist/"                         # where to put dists
+upload_to_pypi = false                      # don't auto-upload to PyPI
+remove_dist = false                         # don't remove dists

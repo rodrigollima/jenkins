@@ -24,3 +24,20 @@ jobs:
     # Step 5. Install our pycounts package
     - name: Install package
       run: poetry install
+      
+  cd:
+    # Only run this job if the "ci" job passes
+    needs: ci
+    # Only run this job if the "main" branch changes
+    if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+    # Step 1. Set up operating system
+    runs-on: ubuntu-latest
+    steps:
+    # Step 2. Set up Python 3.9
+    - uses: actions/setup-python@v2
+      with:
+        python-version: 3.9
+    # Step 3. Check-out repository so we can access its contents
+    - uses: actions/checkout@v2
+      with:
+        fetch-depth: 0

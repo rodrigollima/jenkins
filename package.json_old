@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "bump": "sffffftandard-version"
+    "bump": "sffffffffftandard-version"
   },
   "devDependencies": {
     "standard-version": "^7.1.0"

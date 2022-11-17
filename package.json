@@ -1,8 +1,8 @@
 {
   "name": "my-awesome-package",
   "version": "0.0.246",
-    "private": true,
-
+  "private": true,
+  "dryRun":false,
   "devDependencies": {
     "standard-version": "^7.1.0"
   },

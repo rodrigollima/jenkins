@@ -2,6 +2,10 @@
 
 <!--next-version-placeholder-->
 
+## v11.4.7 (2022-11-17)
+### Fix
+* Disable release ([`3df815c`](https://github.com/rodrigollima/jenkins/commit/3df815c31b31cdf125c919575b2e9d95ecf70429))
+
 ## v11.4.6 (2022-11-17)
 ### Fix
 * New line ([`882c70e`](https://github.com/rodrigollima/jenkins/commit/882c70eba467dfd2edf3641cfadb549a29924e79))
@@ -665,6 +669,10 @@ All notable changes to this project will be documented in this file. See [standa
 # Changelog
 
 <!--next-version-placeholder-->
+
+## v11.4.7 (2022-11-17)
+### Fix
+* Disable release ([`3df815c`](https://github.com/rodrigollima/jenkins/commit/3df815c31b31cdf125c919575b2e9d95ecf70429))
 
 ## v11.4.6 (2022-11-17)
 ### Fix

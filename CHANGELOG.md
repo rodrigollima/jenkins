@@ -2,6 +2,10 @@
 
 <!--next-version-placeholder-->
 
+## v11.4.3 (2022-11-17)
+### Fix
+* Teste ([`5fca545`](https://github.com/rodrigollima/jenkins/commit/5fca54579250bcaf0cc532c4c32675921eacfe29))
+
 ## v11.4.2 (2022-11-17)
 ### Fix
 * Fdafasd ([`93d48dd`](https://github.com/rodrigollima/jenkins/commit/93d48dd6639e9f2dbaadd207b61f532074786d31))
@@ -649,6 +653,10 @@ All notable changes to this project will be documented in this file. See [standa
 # Changelog
 
 <!--next-version-placeholder-->
+
+## v11.4.3 (2022-11-17)
+### Fix
+* Teste ([`5fca545`](https://github.com/rodrigollima/jenkins/commit/5fca54579250bcaf0cc532c4c32675921eacfe29))
 
 ## v11.4.2 (2022-11-17)
 ### Fix

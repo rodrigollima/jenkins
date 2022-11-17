@@ -2,6 +2,10 @@
 
 <!--next-version-placeholder-->
 
+## v11.4.6 (2022-11-17)
+### Fix
+* New line ([`882c70e`](https://github.com/rodrigollima/jenkins/commit/882c70eba467dfd2edf3641cfadb549a29924e79))
+
 ## v11.4.5 (2022-11-17)
 ### Fix
 * Teste ([`bd2563c`](https://github.com/rodrigollima/jenkins/commit/bd2563cc0eba4f36a16de9ecad3e7de712a7b7fa))
@@ -661,6 +665,10 @@ All notable changes to this project will be documented in this file. See [standa
 # Changelog
 
 <!--next-version-placeholder-->
+
+## v11.4.6 (2022-11-17)
+### Fix
+* New line ([`882c70e`](https://github.com/rodrigollima/jenkins/commit/882c70eba467dfd2edf3641cfadb549a29924e79))
 
 ## v11.4.5 (2022-11-17)
 ### Fix

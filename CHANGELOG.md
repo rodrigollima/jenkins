@@ -1,3 +1,12 @@
+## [11.4.8](https://github.com/rodrigollima/jenkins/compare/v11.4.7...v11.4.8) (2022-11-17)
+
+
+### Bug Fixes
+
+* disable github release ([86ac039](https://github.com/rodrigollima/jenkins/commit/86ac039139cba1e3e7b5db1edc28b44dc923c69f))
+* dry ([1385a11](https://github.com/rodrigollima/jenkins/commit/1385a1157840c24e39843946cbf766376f2f5ae3))
+* teste ([7dd8b8e](https://github.com/rodrigollima/jenkins/commit/7dd8b8e4def07873aa9d30580299319881ae63e3))
+
 # Changelog
 
 <!--next-version-placeholder-->

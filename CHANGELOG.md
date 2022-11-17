@@ -1,5 +1,12 @@
 # Changelog
 
+<!--next-version-placeholder-->
+
+## v11.4.0 (2022-11-17)
+### Feature
+* Test ([`63cc1d1`](https://github.com/rodrigollima/jenkins/commit/63cc1d13d54b0d878efa5f7c91e48edfc19f663c))
+
+
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
 ### [0.0.246](https://github.com/rodrigollima/jenkins/compare/v0.0.245...v0.0.246) (2021-10-05)
@@ -632,6 +639,13 @@ All notable changes to this project will be documented in this file. See [standa
 * new fix ([0132640](https://github.com/rodrigollima/jenkins/commit/0132640ab59d37386eef8d89c23aec612db1815a))
 
 # Changelog
+
+<!--next-version-placeholder-->
+
+## v11.4.0 (2022-11-17)
+### Feature
+* Test ([`63cc1d1`](https://github.com/rodrigollima/jenkins/commit/63cc1d13d54b0d878efa5f7c91e48edfc19f663c))
+
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 

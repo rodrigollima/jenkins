@@ -2,6 +2,10 @@
 
 <!--next-version-placeholder-->
 
+## v11.4.4 (2022-11-17)
+### Fix
+* Teste ([`27f5ba4`](https://github.com/rodrigollima/jenkins/commit/27f5ba4d158d1f326318d1a8e7cdec62b892b852))
+
 ## v11.4.3 (2022-11-17)
 ### Fix
 * Teste ([`5fca545`](https://github.com/rodrigollima/jenkins/commit/5fca54579250bcaf0cc532c4c32675921eacfe29))
@@ -653,6 +657,10 @@ All notable changes to this project will be documented in this file. See [standa
 # Changelog
 
 <!--next-version-placeholder-->
+
+## v11.4.4 (2022-11-17)
+### Fix
+* Teste ([`27f5ba4`](https://github.com/rodrigollima/jenkins/commit/27f5ba4d158d1f326318d1a8e7cdec62b892b852))
 
 ## v11.4.3 (2022-11-17)
 ### Fix

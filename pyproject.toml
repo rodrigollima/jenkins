@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "test1"
-version = "11.4.1"
+version = "11.4.2"
 description = ""
 authors = ["lqk"]
 

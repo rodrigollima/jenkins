@@ -1,3 +1,10 @@
+## [11.4.11](https://github.com/rodrigollima/jenkins/compare/v11.4.10...v11.4.11) (2022-12-23)
+
+
+### Bug Fixes
+
+* teste ([d158f49](https://github.com/rodrigollima/jenkins/commit/d158f497e775e40eb8bbb35aef01dbc855eca97b))
+
 ## [11.4.10](https://github.com/rodrigollima/jenkins/compare/v11.4.9...v11.4.10) (2022-12-23)
 
 

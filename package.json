@@ -1,6 +1,6 @@
 {
   "name": "synergyit-agility",
-  "version": "11.4.11",
+  "version": "11.4.12",
   "description": "Automatic subscription platform.",
   "main": "index.js",
   "private": true,
